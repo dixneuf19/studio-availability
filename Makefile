@@ -31,8 +31,8 @@ check-format:
 	uv run ruff check
 	uv run pyright
 
-# test:
-# 	uv run pytest --cov=${PACKAGE_NAME} --cov-report=xml tests
+test:
+	uv run pytest --cov=${PACKAGE_NAME} --cov-report=xml tests
 
 build:
 	docker build --platform ${SUPPORTED_PLATFORMS} -t $(DOCKER_IMAGE_PATH) . 
