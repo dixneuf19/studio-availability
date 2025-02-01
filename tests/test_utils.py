@@ -1,5 +1,10 @@
 from datetime import date as Date, datetime as Datetime, time as Time
-from app.utils import get_dates_from_range, strip_room_name, combine_datetime_midnight_aware
+from app.utils import (
+    get_dates_from_range,
+    strip_room_name,
+    combine_datetime_midnight_aware,
+)
+
 
 def test_get_dates_from_range():
     from_date = Date(2023, 1, 1)
@@ -12,6 +17,7 @@ def test_get_dates_from_range():
         Date(2023, 1, 5),
     ]
     assert get_dates_from_range(from_date, to_date) == expected_dates
+
 
 def test_strip_room_name():
     assert strip_room_name("123. Room Name") == "Room Name"
@@ -39,8 +45,17 @@ def test_strip_room_name():
     assert strip_room_name("19.The Loft (DJing)") == "The Loft (DJing)"
     assert strip_room_name("20.Keith Moon (Drums)") == "Keith Moon (Drums)"
     assert strip_room_name("21.Elvin Jones (Drums)") == "Elvin Jones (Drums)"
-    assert strip_room_name("22.Tony Williams (Cabine Piano)") == "Tony Williams (Cabine Piano)"
-    assert strip_room_name("23. Duke Ellington (Cabine Piano)") == "Duke Ellington (Cabine Piano)"
+    assert (
+        strip_room_name("22.Tony Williams (Cabine Piano)")
+        == "Tony Williams (Cabine Piano)"
+    )
+    assert (
+        strip_room_name("23. Duke Ellington (Cabine Piano)")
+        == "Duke Ellington (Cabine Piano)"
+    )
+    assert strip_room_name("Random Room") == "Random Room"
+    assert strip_room_name("") == ""
+
 
 def test_combine_datetime_midnight_aware():
     date = Date(2023, 1, 1)
@@ -50,4 +65,3 @@ def test_combine_datetime_midnight_aware():
     expected_random = Datetime(2023, 1, 1, 19, 19)
     assert combine_datetime_midnight_aware(date, time_midnight) == expected_midnight
     assert combine_datetime_midnight_aware(date, time_random) == expected_random
-
