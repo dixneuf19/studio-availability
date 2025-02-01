@@ -1,0 +1,20 @@
+<h1 class="centered">Studio Bookings</h1>
+
+<form id="bookingsForm" hx-get="/bookings" hx-target="#result">
+  <select id="studioName" name="studio_name" aria-label="Select studio" hidden required>
+    <option value="hf-14">HF 14</option>
+  </select>
+  <div class="grid">
+    <div>
+      <label for="startDate">Start Date</label>
+      <input type="date" id="startDate" name="start_date" value="{{ Datetime.now().strftime('%Y-%m-%d') }}" />
+    </div>
+    <div>
+      <label for="endDate">End Date</label>
+      <input type="date" id="endDate" name="end_date" value="{{ Datetime.now().strftime('%Y-%m-%d') }}" />
+    </div>
+  </div>
+
+  <button data-loading-aria-busy type="submit">Search Bookings</button>
+</form>
+<div id="result"></div>

@@ -4,7 +4,9 @@ from datetime import datetime as Datetime
 from datetime import time as Time
 from datetime import timedelta
 
-from .models import Booking
+from itertools import groupby
+
+from .models import Booking, Room
 
 
 def get_dates_from_range(from_date: Date, to_date: Date) -> list[Date]:
@@ -15,6 +17,10 @@ def get_dates_from_range(from_date: Date, to_date: Date) -> list[Date]:
 
 def get_room_id(booking: Booking) -> int:
     return booking.room.id
+
+
+def get_room_name(booking: Booking) -> str:
+    return booking.room.name
 
 
 def strip_room_name(room_name: str) -> str:
@@ -31,3 +37,12 @@ def combine_datetime_midnight_aware(date: Date, time: Time) -> Datetime:
         date + timedelta(days=1) if time == Time(hour=0) else date,
         time,
     )
+
+
+def get_bookings_per_room(bookings: list[Booking]) -> dict[Room, list[Booking]]:
+    return {
+        room: list(bookings_iter)
+        for room, bookings_iter in groupby(
+            sorted(bookings, key=lambda x: x.room.name), key=lambda x: x.room
+        )
+    }
