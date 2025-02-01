@@ -5,7 +5,7 @@ DOCKER_REPOSITERY=ghcr.io/dixneuf19
 IMAGE_NAME=studio-availability
 IMAGE_TAG=$(shell git rev-parse --short HEAD)
 DOCKER_IMAGE_PATH=$(DOCKER_REPOSITERY)/$(IMAGE_NAME):$(IMAGE_TAG)
-SUPPORTED_PLATFORMS=linux/amd64
+SUPPORTED_PLATFORMS=linux/amd64,linux/arm64
 
 # Default target
 all: dev
