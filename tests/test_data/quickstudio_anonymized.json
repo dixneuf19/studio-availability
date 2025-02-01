@@ -1,0 +1,1654 @@
+[
+    {
+        "id": 3033,
+        "name": "1.Sound City",
+        "description": "<p>Salle de 18m2\n<br /><br /><strong>Batterie:</strong> Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br /><strong>Amplis Guitare:</strong> Fender Hot Rod Deluxe III, Vox AC15\n<br /><strong>Ampli Basse:</strong> Markbass CMD-151P LM3\n<br /><strong>Micros:</strong> Shure SM58\n<br /><strong>Enceintes:</strong> Pioneer DJ-XPRS 15\n<br /><strong>Table de Mixage:</strong> Mackie ProFX8v2</p>\n\n<p><br /><strong>Tarifs:</strong> \n<br />14\u20ac/h de 10h \u00e0 18h, 18\u20ac/h apr\u00e8s 18h, week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 18,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T09:30:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1884513,
+                    "name": "Linda Evans",
+                    "short_name": "Linda Evan"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T11:00:00+01:00",
+                "end": "2024-12-17T11:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2735433,
+                    "name": "Wayne Romero Jr.",
+                    "short_name": "Wayne Rome"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T13:30:00+01:00",
+                "end": "2024-12-17T19:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2482414,
+                    "name": "Timothy Barnes",
+                    "short_name": "Timothy Ba"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T19:00:00+01:00",
+                "end": "2024-12-17T22:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1964113,
+                    "name": "Sherry Mays",
+                    "short_name": "Sherry May"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T22:00:00+01:00",
+                "end": "2024-12-18T00:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2956763,
+                    "name": "Thomas Reilly",
+                    "short_name": "Thomas Rei"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3313,
+        "name": "2.Pyramid Club (Cabine)",
+        "description": "<p>Salle de 18m2\n<br /><br /></p>\n\n<p>Mixer Mackie ProFX16v2\n<br />2 enceintes Pioneer DJ-XPRS12\n<br />Micros Shure SM58</p>\n\n<p><strong>Tarifs:</strong> \n<br />Solo 8\u20ac/h, \n<br />Duo 11\u20ac/h de 10h \u00e0 18h et 14\u20ac/h  apr\u00e8s 18h, week-end et jours f\u00e9ri\u00e9s,\n<br />Groupe 14\u20ac/h de 10h \u00e0 18h, 18\u20ac/h apr\u00e8s 18h, week-end et jours f\u00e9ri\u00e9s.\n</p>",
+        "size": 18,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T14:00:00+01:00",
+                "end": "2024-12-17T15:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2269204,
+                    "name": "Madison Martinez",
+                    "short_name": "Madison Ma"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:00:00+01:00",
+                "end": "2024-12-17T20:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2479384,
+                    "name": "Veronica Parks",
+                    "short_name": "Veronica P"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 4263,
+        "name": "3. John Bonham",
+        "description": "<p>Salle de 18m2\n<br /><br />\n<br />Batterie Tama Starclassic\n<br />Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br />Ampli basse Markbass CMD 151P\n<br />Ampli guitare Fender Hot Rod Deluxe IV\n<br />Ampli guitare Vox AC15\n<br />Mixer Mackie ProFX16\n<br />2 enceintes Pioneer DJ-XPRS 12\n<br />Micros Shure SM58</p>\n\n<p><strong>Tarifs:</strong> \n<br />14\u20ac/h de 10h \u00e0 18h, 18\u20ac/h apr\u00e8s 18h, week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 18,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T12:00:00+01:00",
+                "end": "2024-12-17T14:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2597233,
+                    "name": "Stefanie Jackson",
+                    "short_name": "Stefanie J"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T14:00:00+01:00",
+                "end": "2024-12-17T17:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 3034623,
+                    "name": "Henry Hess",
+                    "short_name": "Henry Hess"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:00:00+01:00",
+                "end": "2024-12-17T20:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2025714,
+                    "name": "Lauren Moran",
+                    "short_name": "Lauren Mor"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T20:00:00+01:00",
+                "end": "2024-12-17T23:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2925273,
+                    "name": "Katrina Francis",
+                    "short_name": "Katrina Fr"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3253,
+        "name": "4.The Factory",
+        "description": "<p>Salle de 22m2\n<br />Batterie Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br />Ampli basse Markbass CMD 151P LM3\n<br />Ampli guitare Fender Hot Rod Deluxe III\n<br />Ampli guitare Vox AC15\n<br />Mixer Mackie ProFX16v2\n<br />2 enceintes Pioneer DJ-XPRS 15\n<br />Micros Shure SM58</p>\n\n<p><strong>Tarifs:</strong> \n<br />14\u20ac/h de 10h \u00e0 18h, 18\u20ac/h apr\u00e8s 18h, week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 22,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:00:00+01:00",
+                "end": "2024-12-17T19:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 3015103,
+                    "name": "Jessica Wright",
+                    "short_name": "Jessica Wr"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T19:00:00+01:00",
+                "end": "2024-12-17T21:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2291463,
+                    "name": "Scott Key",
+                    "short_name": "Scott Key"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T21:00:00+01:00",
+                "end": "2024-12-17T23:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2628693,
+                    "name": "Ashley Mcgrath",
+                    "short_name": "Ashley Mcg"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3053,
+        "name": "5.Delta lab (Piano)",
+        "description": "<p>Salle de 25m2\n<br /><br /><strong>Batterie:</strong> Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br /><strong>Amplis Guitare:</strong> Fender Hot Rod Deluxe III, Vox AC15\n<br /><strong>Ampli Basse:</strong> Markbass CMD-102P\n<br /><strong>Micros:</strong> Shure SM58\n<br /><strong>Enceintes:</strong> Pioneer DJ-XPRS 15\n<br /><strong>Table de Mixage:</strong> Mackie ProFX16v2\n<br /><strong>Piano:</strong> Yamaha U1</p>\n\n<p><strong>Tarifs:</strong> \n<br />18\u20ac/heure de 10h \u00e0 18h, 21\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 25,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T10:30:00+01:00",
+                "end": "2024-12-17T13:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2188773,
+                    "name": "David Thomas",
+                    "short_name": "David Thom"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T14:00:00+01:00",
+                "end": "2024-12-17T15:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2188773,
+                    "name": "David Thomas",
+                    "short_name": "David Thom"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T17:00:00+01:00",
+                "end": "2024-12-17T18:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2956183,
+                    "name": "Savannah Townsend",
+                    "short_name": "Savannah T"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T19:00:00+01:00",
+                "end": "2024-12-17T20:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2458634,
+                    "name": "Mr. Roger Jacobs MD",
+                    "short_name": "Mr. Roger "
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T21:00:00+01:00",
+                "end": "2024-12-18T00:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1897783,
+                    "name": "Joseph Torres",
+                    "short_name": "Joseph Tor"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3073,
+        "name": "6.Cotton Club (Piano)",
+        "description": "<p>Salle de 25m2\n<br /><br /><strong>Batterie:</strong> Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br /><strong>Piano Yamaha U1</strong>\n<br /><strong>Amplis Guitare:</strong> Fender Hot Rod Deluxe III, Vox AC15\n<br /><strong>Ampli Basse:</strong> Markbass CMD-151P LM3\n<br /><strong>Micros:</strong> Shure SM58\n<br /><strong>Enceintes:</strong> Pioneer DJ-XPRS 15\n<br /><strong>Table de Mixage:</strong> Mackie ProFX16v2</p>\n\n<p><strong>Tarifs:</strong> \n<br />18\u20ac/heure de 10h \u00e0 18h, 21\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 25,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T11:00:00+01:00",
+                "end": "2024-12-17T12:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2455004,
+                    "name": "Melissa Young",
+                    "short_name": "Melissa Yo"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T12:30:00+01:00",
+                "end": "2024-12-17T13:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1651383,
+                    "name": "Linda Gonzalez",
+                    "short_name": "Linda Gonz"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T17:00:00+01:00",
+                "end": "2024-12-17T19:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2160954,
+                    "name": "Jill Martinez",
+                    "short_name": "Jill Marti"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T20:00:00+01:00",
+                "end": "2024-12-17T22:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2005523,
+                    "name": "Jason Long",
+                    "short_name": "Jason Long"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 4533,
+        "name": "Studio MAO",
+        "description": "<p>- Enceintes Yamaha HS7\n<br />- Table de mixage Allen & Heath QU32\n<br />- Clavier Midi</p>\n\n<p>ATTENTION, il n'y a pas d'ordinateur dans la salle !</p>\n\n<p>Tarifs:\n<br />10,5\u20ac/h pour une \u00e0 deux personnes\n<br />2,5\u20ac/h par personnes en plus (4 personnes max en salle)</p>",
+        "size": 10,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Solo/Duo DJING",
+                "id": 2033
+            },
+            {
+                "name": "Trio Djing",
+                "id": 1114
+            },
+            {
+                "name": "4 Personnes",
+                "id": 2003
+            }
+        ]
+    },
+    {
+        "id": 3303,
+        "name": "7.The Fillmore",
+        "description": "<p>Studio de 28m2</p>\n\n<p>Batterie Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br />Ampli basse Markbass CMD 102P\n<br />Ampli guitare Fender Hot Rod Deluxe III\n<br />Ampli guitare Vox AC15\n<br />Mixer Mackie ProFX16v2 \n<br />2 enceintes Pioneer DJ-XPRS 15\n<br />Micros Shure SM58</p>\n\n<p><strong>Tarifs:</strong> \n<br />18\u20ac/heure de 10h \u00e0 18h, 21\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 28,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T16:00:00+01:00",
+                "end": "2024-12-17T17:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2876093,
+                    "name": "Jillian Erickson",
+                    "short_name": "Jillian Er"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:00:00+01:00",
+                "end": "2024-12-17T20:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2431634,
+                    "name": "Michael Ball",
+                    "short_name": "Michael Ba"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T20:00:00+01:00",
+                "end": "2024-12-17T22:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2559563,
+                    "name": "Lisa Harvey",
+                    "short_name": "Lisa Harve"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T22:00:00+01:00",
+                "end": "2024-12-17T23:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2649773,
+                    "name": "Christina Burton",
+                    "short_name": "Christina "
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 4253,
+        "name": "8. Jeff Porcaro",
+        "description": "<p>Studio de 28m2</p>\n\n<p>Batterie Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br />Ampli basse Markbass CMD 151p\n<br />Ampli guitare Fender Hot Rod Deluxe IV\n<br />Ampli guitare Vox AC15\n<br />Mixer Mackie ProFX16v2 \n<br />2 enceintes Pioneer DJ-XPRS 15\n<br />Micros Shure SM58</p>\n\n<p><strong>Tarifs:</strong> \n<br />18\u20ac/heure de 10h \u00e0 18h, 21\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 28,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T11:30:00+01:00",
+                "end": "2024-12-17T13:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2353764,
+                    "name": "Cynthia Davenport",
+                    "short_name": "Cynthia Da"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T14:00:00+01:00",
+                "end": "2024-12-17T16:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2353764,
+                    "name": "Cynthia Davenport",
+                    "short_name": "Cynthia Da"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T16:30:00+01:00",
+                "end": "2024-12-17T18:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2800043,
+                    "name": "Michael Lee",
+                    "short_name": "Michael Le"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:00:00+01:00",
+                "end": "2024-12-17T20:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 3007043,
+                    "name": "Tiffany Burke",
+                    "short_name": "Tiffany Bu"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T20:30:00+01:00",
+                "end": "2024-12-18T00:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1995653,
+                    "name": "John Stewart",
+                    "short_name": "John Stewa"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 4243,
+        "name": "9. The Roxy (Cabine Piano)",
+        "description": "<p>Studio de 28m2</p>\n\n<p>Piano Droit \n<br />Mixer Mackie ProFX16v2 \n<br />2 enceintes Pioneer DJ-XPRS 15\n<br />Micros Shure SM58</p>\n\n<p><strong>Tarifs:</strong> \n<br />18\u20ac/heure de 10h \u00e0 18h, 21\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 28,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T11:30:00+01:00",
+                "end": "2024-12-17T13:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2478604,
+                    "name": "Robert Kemp",
+                    "short_name": "Robert Kem"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T15:30:00+01:00",
+                "end": "2024-12-17T16:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1881243,
+                    "name": "Elizabeth Riley",
+                    "short_name": "Elizabeth "
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:00:00+01:00",
+                "end": "2024-12-17T19:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1881243,
+                    "name": "Elizabeth Riley",
+                    "short_name": "Elizabeth "
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Trio Djing",
+                "id": 1114
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "4 Personnes",
+                "id": 2003
+            },
+            {
+                "name": "Production",
+                "id": 2274
+            },
+            {
+                "name": "Solo/Duo DJING",
+                "id": 2033
+            }
+        ]
+    },
+    {
+        "id": 3263,
+        "name": "10.Black Rock",
+        "description": "<p>Salle de 30m2\n<br /><br /><strong>Batterie:</strong> Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br /><strong>Amplis Guitare:</strong> Fender Hot Rod Deluxe III, Vox AC15\n<br /><strong>Ampli Basse:</strong> Markbass CMD-102P\n<br /><strong>Micros:</strong> Shure SM58\n<br /><strong>Enceintes:</strong> Pioneer DJ-XPRS 15\n<br /><strong>Table de Mixage:</strong> Mackie ProFX16v2\n<br /><strong>Clavier:</strong> Nord Stage 2 88EX (Loc. Supp. 4\u20ac/h)</p>\n\n<p><strong>Tarifs:</strong> \n<br />18\u20ac/heure de 10h \u00e0 18h, 21\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 30,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T11:00:00+01:00",
+                "end": "2024-12-17T13:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2432424,
+                    "name": "Carla Smith",
+                    "short_name": "Carla Smit"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T15:00:00+01:00",
+                "end": "2024-12-17T17:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1681124,
+                    "name": "Heidi Johnson",
+                    "short_name": "Heidi John"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T17:00:00+01:00",
+                "end": "2024-12-17T18:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1906053,
+                    "name": "Taylor Gutierrez",
+                    "short_name": "Taylor Gut"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:00:00+01:00",
+                "end": "2024-12-17T19:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2680483,
+                    "name": "Fernando Cameron",
+                    "short_name": "Fernando C"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T19:30:00+01:00",
+                "end": "2024-12-17T21:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1913893,
+                    "name": "Stephanie Kim",
+                    "short_name": "Stephanie "
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3323,
+        "name": "11.Webster Hall",
+        "description": "<p>Salle de 33 m2\n<br /><br />\n<br />Batterie DW Design, cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br />Ampli basse Markbass CMD 151P\n<br />Ampli guitare Fender Hot Rod Deluxe III\n<br />Ampli guitare Vox AC15\n<br />Mixer Mackie ProFX16v2\n<br />2 enceintes Pioneer DJ-XPRS15\n<br />Micros Shure SM58\n<br />Clavier Nord Stage 2 88 (Loc. supp. 4\u20ac/h)</p>\n\n<p><strong>Tarifs:</strong> \n<br />18\u20ac/heure de 10h \u00e0 18h, 22\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.\n</p>",
+        "size": 33,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T13:00:00+01:00",
+                "end": "2024-12-17T17:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2702793,
+                    "name": "Stephanie Hunter",
+                    "short_name": "Stephanie "
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T17:00:00+01:00",
+                "end": "2024-12-17T19:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2031844,
+                    "name": "Corey Ali",
+                    "short_name": "Corey Ali"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T19:30:00+01:00",
+                "end": "2024-12-17T20:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2028564,
+                    "name": "Tommy Riley",
+                    "short_name": "Tommy Rile"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T20:30:00+01:00",
+                "end": "2024-12-17T22:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2556023,
+                    "name": "David Powell",
+                    "short_name": "David Powe"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3023,
+        "name": "12.Birdland ",
+        "description": "<p>Salle de 35m2\n<br />Batterie Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br />Ampli basse Markbass CMD 151P LM3\n<br />Ampli guitare Fender Hot Rod Deluxe III\n<br />Ampli guitare Vox AC15\n<br />Mixer Mackie ProFX16v2\n<br />2 enceintes Pioneer DJ-XPRS 15\n<br />Micros Shure SM58\n<br />Casio Privia (loc. supp. 3\u20ac/h)</p>\n\n<p><strong>Tarifs:</strong> \n<br />18\u20ac/heure de 10h \u00e0 18h, 22\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 35,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T12:00:00+01:00",
+                "end": "2024-12-17T13:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2344273,
+                    "name": "Karen Young",
+                    "short_name": "Karen Youn"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T14:30:00+01:00",
+                "end": "2024-12-17T17:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2341953,
+                    "name": "Stephanie Jones",
+                    "short_name": "Stephanie "
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:00:00+01:00",
+                "end": "2024-12-17T19:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2024324,
+                    "name": "Zachary Barron",
+                    "short_name": "Zachary Ba"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T20:00:00+01:00",
+                "end": "2024-12-17T22:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1891113,
+                    "name": "Sophia Oneill DVM",
+                    "short_name": "Sophia One"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3043,
+        "name": "13.Electric Lady ",
+        "description": "<p>Salle de 38m2\n<br /><br /><strong>Batterie:</strong> Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br /><strong>Amplis Guitare:</strong> Fender Hot Rod Deluxe III, Vox AC15\n<br /><strong>Ampli Basse:</strong> Markbass CMD-102P\n<br /><strong>Micros:</strong> Shure SM58\n<br /><strong>Enceintes:</strong> Pioneer DJ-XPRS 15\n<br /><strong>Table de Mixage:</strong> Mackie ProFX16v2\n<br /><strong>Clavier:</strong> Nord Stage 2 88EX (Loc. Supp. 4\u20ac/h)</p>\n\n<p><strong>Tarifs:</strong> \n<br />18\u20ac/heure de 10h \u00e0 18h, 22\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 38,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T15:00:00+01:00",
+                "end": "2024-12-17T16:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1533683,
+                    "name": "Timothy Reid",
+                    "short_name": "Timothy Re"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:00:00+01:00",
+                "end": "2024-12-17T20:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1888843,
+                    "name": "Donna Sandoval",
+                    "short_name": "Donna Sand"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T20:00:00+01:00",
+                "end": "2024-12-17T22:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2032844,
+                    "name": "Sean Fitzgerald",
+                    "short_name": "Sean Fitzg"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3063,
+        "name": "14.Apollo Theater ",
+        "description": "<p>Salle de 40m2\n<br /><br /><strong>Batterie:</strong> Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br /><strong>Amplis Guitare:</strong> Fender Hot Rod Deluxe III, Vox AC15\n<br /><strong>Ampli Basse:</strong> Markbass CMD-102P\n<br /><strong>Micros:</strong> Shure SM58\n<br /><strong>Enceintes:</strong> Pioneer DJ-XPRS 15\n<br /><strong>Table de Mixage:</strong> Mackie ProFX16v2\n<br /><strong>Clavier:</strong> Nord Stage 2 88EX (Loc. Supp. 3\u20ac/h)\n<br /><strong>Enregistreur:</strong> Zoom Q4 (Gratuit sur demande \u00e0 l\u2019accueil. Prendre votre propre carte SD)</p>\n\n<p><strong>Tarifs:</strong> \n<br />18\u20ac/heure de 10h \u00e0 18h, 22\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 40,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T16:30:00+01:00",
+                "end": "2024-12-17T18:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2458634,
+                    "name": "Mr. Roger Jacobs MD",
+                    "short_name": "Mr. Roger "
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T19:30:00+01:00",
+                "end": "2024-12-17T22:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2273183,
+                    "name": "Elizabeth Williams",
+                    "short_name": "Elizabeth "
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3113,
+        "name": "15.Carnegie Hall ",
+        "description": "<p>Salle de r\u00e9p\u00e9tition 60m2\n<br /><br />Batterie Tama Starclassic, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br />Ampli basse Markbass CMD 102P\n<br />Ampli guitare Fender Hot Rod Deluxe III\n<br />Ampli guitare Vox AC15\n<br />Mixer Mackie Pro FX 30 v2\n<br />2 enceintes Pioneer DJ-XPRS 15\n<br />Micros Shure SM58</p>\n\n<p><strong>Tarifs:</strong> \n<br />21\u20ac/heure de 10h \u00e0 18h, 26\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 60,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T16:00:00+01:00",
+                "end": "2024-12-17T17:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1536363,
+                    "name": "Elizabeth Hunter",
+                    "short_name": "Elizabeth "
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:30:00+01:00",
+                "end": "2024-12-17T20:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2873023,
+                    "name": "Jose Cook",
+                    "short_name": "Jose Cook"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T21:00:00+01:00",
+                "end": "2024-12-18T00:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2432184,
+                    "name": "Michael Murray",
+                    "short_name": "Michael Mu"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3364,
+        "name": "16.Camden Palace (Piano)",
+        "description": "<p>Salle de 85m2\n<br /><br />Batterie DW Design Series, Cymbales Zildjian Avedis (Crash, Ride, Charleston)\n<br />Ampli basse Markbass CMD 151P\n<br />Ampli guitare Fender Hot Rod Deluxe III\n<br />Ampli guitare Vox AC15\n<br />Piano Droit\n<br />Mixer Mackie Pro FX 30 v2\n<br />2 enceintes Pioneer DJ-XPRS 15\n<br />Micros Shure SM58</p>\n\n<p><strong>Tarifs:</strong> \n<br />21\u20ac/heure de 10h \u00e0 18h, 26\u20ac/heure apr\u00e8s 18h week-end et jours f\u00e9ri\u00e9s.</p>",
+        "size": 85,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T10:00:00+01:00",
+                "end": "2024-12-17T13:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 1678343,
+                    "name": "Sarah Gomez",
+                    "short_name": "Sarah Gome"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T13:00:00+01:00",
+                "end": "2024-12-17T19:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2994813,
+                    "name": "Michelle Turner",
+                    "short_name": "Michelle T"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T19:00:00+01:00",
+                "end": "2024-12-17T20:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 3034933,
+                    "name": "Edward Potts",
+                    "short_name": "Edward Pot"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T20:00:00+01:00",
+                "end": "2024-12-17T22:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2610823,
+                    "name": "Holly Mathis",
+                    "short_name": "Holly Math"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T22:00:00+01:00",
+                "end": "2024-12-18T00:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2992363,
+                    "name": "Tyler Thomas",
+                    "short_name": "Tyler Thom"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3093,
+        "name": "17.Paradise Garage (DJing)",
+        "description": "<p>Studio DJing de 10m2\n<br /><br />Platines CD: Pioneer CDJ-2000 Nexus 2\n<br />Platines Vinyl: Pioneer PLX-1000\n<br />Mixer: Pioneer DJM-900 Nexus 2\n<br /><strong>Enceintes:</strong> Pioneer S-DJ80X\n<br /><strong>Table de Mixage:</strong> Mackie ProFX8v2\n<br /><strong>Enregistreur:</strong> Zoom H2N (Gratuit sur demande \u00e0 l\u2019accueil. Prendre votre propre carte SD)</p>\n\n<p><br /><strong>Tarifs:</strong> \n<br />10,5\u20ac/h 1 \u00e0 2 personnes. 2,5\u20ac/h par personne en plus (jusqu\u2019a 4 personnes max.)</p>",
+        "size": 10,
+        "open": "2024-12-18T00:00:00+01:00",
+        "close": "2024-12-17T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-18T00:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T16:00:00+01:00",
+                "end": "2024-12-17T18:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2722603,
+                    "name": "James Hunt",
+                    "short_name": "James Hunt"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Trio Djing",
+                "id": 1114
+            },
+            {
+                "name": "4 Personnes",
+                "id": 2003
+            },
+            {
+                "name": "Solo/Duo DJING",
+                "id": 2033
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            }
+        ]
+    },
+    {
+        "id": 3083,
+        "name": "18.L'Hacienda (DJing)",
+        "description": "<p>Studio DJing de 10m2\n<br /><br />Platines CD: Pioneer CDJ-2000 Nexus 2\n<br />Platines Vinyl: Pioneer PLX-1000\n<br />Mixer: Pioneer DJM-900 Nexus 2\n<br /><strong>Enceintes:</strong> Pioneer S-DJ80X\n<br /><strong>Table de Mixage:</strong> Mackie ProFX8v2\n<br /><strong>Enregistreur:</strong> Zoom H2N (Gratuit sur demande \u00e0 l\u2019accueil. Prendre votre propre carte SD)</p>\n\n<p><br /><strong>Tarifs:</strong> \n<br />10,5\u20ac/h 1 \u00e0 2 personnes. 2,5\u20ac/h par personne en plus (jusqu\u2019a 4 personnes max.)</p>",
+        "size": 10,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T14:30:00+01:00",
+                "end": "2024-12-17T19:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 3016803,
+                    "name": "Amanda Lawson",
+                    "short_name": "Amanda Law"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T20:00:00+01:00",
+                "end": "2024-12-17T22:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2888253,
+                    "name": "Debra York",
+                    "short_name": "Debra York"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Trio Djing",
+                "id": 1114
+            },
+            {
+                "name": "4 Personnes",
+                "id": 2003
+            },
+            {
+                "name": "Solo/Duo DJING",
+                "id": 2033
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            }
+        ]
+    },
+    {
+        "id": 3103,
+        "name": "19.The Loft (DJing)",
+        "description": "<p>Salle de 12m2\n<br /><br /><strong>Enceintes:</strong> Pioneer DJ-XPRS 12\n<br /><strong>Table de Mixage:</strong> Mackie ProFX16v2\n<br /><strong>Clavier:</strong> Nord Stage 2 88EX (Loc. Supp. 3\u20ac/h)\n<br /><strong>Enregistreur:</strong> Zoom Q4 (Gratuit sur demande \u00e0 l\u2019accueil. Prendre votre propre carte SD)</p>\n\n<p><br /><strong>Tarifs:</strong> \n<br />10,5\u20ac/h jusqu'\u00e0 2 personnes, 2,5\u20ac/h par personne suppl\u00e9mentaire (jusqu'\u00e0 4 personnes)\n</p>",
+        "size": 12,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T14:00:00+01:00",
+                "end": "2024-12-17T15:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2270724,
+                    "name": "Johnny Burke",
+                    "short_name": "Johnny Bur"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T16:00:00+01:00",
+                "end": "2024-12-17T19:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 3037043,
+                    "name": "Sarah Diaz",
+                    "short_name": "Sarah Diaz"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T19:00:00+01:00",
+                "end": "2024-12-17T20:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2993933,
+                    "name": "Willie Walker",
+                    "short_name": "Willie Wal"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Trio Djing",
+                "id": 1114
+            },
+            {
+                "name": "4 Personnes",
+                "id": 2003
+            },
+            {
+                "name": "Solo/Duo DJING",
+                "id": 2033
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            }
+        ]
+    },
+    {
+        "id": 3133,
+        "name": "20.Keith Moon (Drums)",
+        "description": "<p>cabine batterie de 10m2\n<br /><br /><strong>Batterie:</strong> Tama Starclassic - Cymbales Zildjian Avedis (Crash, Ride, Charlestone)\n<br /><strong>Enceintes:</strong> Pioneer DJ-XPRS 12\n<br /><strong>Table de Mixage:</strong> Mackie VLZ4</p>\n\n<p><br /><strong>Tarifs:</strong> \n<br />7.5\u20ac/h en solo, tarif unique\n<br />10\u20ac/h en duo avant 18h, 13\u20ac/h apr\u00e8s 18h, week-ends & jours f\u00e9ri\u00e9s</p>",
+        "size": 10,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T12:00:00+01:00",
+                "end": "2024-12-17T13:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2818273,
+                    "name": "Tracy Smith",
+                    "short_name": "Tracy Smit"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T17:30:00+01:00",
+                "end": "2024-12-17T18:30:00+01:00",
+                "paid": false,
+                "band": {
+                    "id": 1536693,
+                    "name": "Keith Martinez",
+                    "short_name": "Keith Mart"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:30:00+01:00",
+                "end": "2024-12-17T21:30:00+01:00",
+                "paid": false,
+                "band": {
+                    "id": 1536693,
+                    "name": "Keith Martinez",
+                    "short_name": "Keith Mart"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T21:30:00+01:00",
+                "end": "2024-12-17T23:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2982513,
+                    "name": "Dillon Chang",
+                    "short_name": "Dillon Cha"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Groupe",
+                "id": 953
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            },
+            {
+                "name": "Solo",
+                "id": 963
+            }
+        ]
+    },
+    {
+        "id": 3143,
+        "name": "21.Elvin Jones (Drums)",
+        "description": "<p>cabine batterie de 8m2\n<br /><br /><strong>Batterie:</strong> Yamaha Stage Custom - Cymbales Zildjian Avedis (Crash, Ride, Charlestone)\n<br /><strong>Enceintes:</strong> ALTO TX8\n<br /><strong>Table de Mixage:</strong> Mackie VLZ4</p>\n\n<p><br /><strong>Tarifs:</strong> \n<br />7.5\u20ac/h en solo, tarif unique\n<br />10\u20ac/h en duo avant 18h, 13\u20ac/h apr\u00e8s 18h, week-ends & jours f\u00e9ri\u00e9s</p>",
+        "size": 8,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T17:30:00+01:00",
+                "end": "2024-12-17T18:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2912313,
+                    "name": "Ashley Richardson",
+                    "short_name": "Ashley Ric"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T19:00:00+01:00",
+                "end": "2024-12-17T21:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2494254,
+                    "name": "Michelle Harrington",
+                    "short_name": "Michelle H"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T21:30:00+01:00",
+                "end": "2024-12-17T23:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2447944,
+                    "name": "Stacey Brown",
+                    "short_name": "Stacey Bro"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Solo",
+                "id": 963
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            }
+        ]
+    },
+    {
+        "id": 3123,
+        "name": "22.Tony Williams (Cabine Piano)",
+        "description": "<p>cabine Piano de 10m2\n<br /><strong> Piano Droit Sammick\n<br /><strong>Enceintes:</strong> Pioneer DJ-XPRS 12\n<br /><strong>Table de Mixage:</strong> Mackie VLZ4</p>\n\n<p><br /><strong>Tarifs:</strong> \n<br />7.5\u20ac/h en solo, tarif unique\n<br />10\u20ac/h en duo avant 18h, 13\u20ac/h apr\u00e8s 18h, week-ends & jours f\u00e9ri\u00e9s</p>",
+        "size": 10,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T11:00:00+01:00",
+                "end": "2024-12-17T12:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2244703,
+                    "name": "Laurie Rodriguez",
+                    "short_name": "Laurie Rod"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T12:00:00+01:00",
+                "end": "2024-12-17T14:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2394384,
+                    "name": "Darlene Gibson",
+                    "short_name": "Darlene Gi"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T17:30:00+01:00",
+                "end": "2024-12-17T19:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2248263,
+                    "name": "Stephanie Jackson",
+                    "short_name": "Stephanie "
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Solo",
+                "id": 963
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            }
+        ]
+    },
+    {
+        "id": 4523,
+        "name": "23. Duke Ellington (Cabine Piano)",
+        "description": "<p>- Piano droit Rameau\n<br />- Enceintes Alto TX8\n<br />- Table de mixage Mackie ProFX8\n<br />- 2 micros Shure SM58</p>\n\n<p>Tarifs: \n<br />7.5\u20ac/h en solo, tarif unique\n<br />10\u20ac/h en duo avant 18h, 13\u20ac/h apr\u00e8s 18h, week-ends & jours f\u00e9ri\u00e9s</p>",
+        "size": 10,
+        "open": "2024-12-17T10:00:00+01:00",
+        "close": "2024-12-18T00:00:00+01:00",
+        "bookings": [
+            {
+                "type": 4,
+                "start": "2024-12-17T00:00:00+01:00",
+                "end": "2024-12-17T10:00:00+01:00",
+                "paid": null,
+                "band": null
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T10:00:00+01:00",
+                "end": "2024-12-17T12:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2480734,
+                    "name": "Peter Olsen",
+                    "short_name": "Peter Olse"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T18:00:00+01:00",
+                "end": "2024-12-17T20:00:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2610823,
+                    "name": "Holly Mathis",
+                    "short_name": "Holly Math"
+                }
+            },
+            {
+                "type": 1,
+                "start": "2024-12-17T21:00:00+01:00",
+                "end": "2024-12-17T22:30:00+01:00",
+                "paid": true,
+                "band": {
+                    "id": 2908123,
+                    "name": "Molly Wilson",
+                    "short_name": "Molly Wils"
+                }
+            }
+        ],
+        "rate_types": [
+            {
+                "name": "Solo",
+                "id": 963
+            },
+            {
+                "name": "Duo",
+                "id": 973
+            }
+        ]
+    }
+]

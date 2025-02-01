@@ -18,9 +18,9 @@ def get_room_id(booking: Booking) -> int:
 
 
 def strip_room_name(room_name: str) -> str:
-    m = re.match(r"^\d+\.([\w\s]+)\s.*$", room_name)
+    m = re.match(r"^(\d+\.\s?)?(.+)$", room_name)
     if m:
-        return m.group(1)
+        return m.group(2).strip()
     else:
         return room_name
 
