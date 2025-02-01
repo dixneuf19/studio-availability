@@ -1,0 +1,93 @@
+<h1 class="centered">Studio Availabilities</h1>
+
+<form id="availabilitiesForm" hx-get="/availabilities" hx-target="#result">
+  <select
+    id="studioName"
+    name="studio_name"
+    aria-label="Select studio"
+    hidden
+    required
+  >
+    <option value="hf-14">HF 14</option>
+  </select>
+  <div class="grid">
+    <div>
+      <label for="startDate">Start Date</label>
+      <input
+        type="date"
+        id="startDate"
+        name="start_date"
+        value="{{ Datetime.now().strftime('%Y-%m-%d') }}"
+      />
+    </div>
+    <div>
+      <label for="endDate">End Date</label>
+      <input
+        type="date"
+        id="endDate"
+        name="end_date"
+        value="{{ Datetime.now().strftime('%Y-%m-%d') }}"
+      />
+    </div>
+    <div>
+      <label for="fromTime">From Time</label>
+      <input type="time" id="fromTime" name="from_time" value="19:00" />
+    </div>
+    <div>
+      <label for="toTime">To Time</label>
+      <input type="time" id="toTime" name="to_time" value="00:00" />
+    </div>
+  </div>
+  <fieldset>
+    <legend>Days of the Week</legend>
+    <div class="grid" id="days-of-week-grid">
+      <label>
+        <input type="checkbox" name="days_of_week" value="1" checked />
+        Monday
+      </label>
+      <label>
+        <input type="checkbox" name="days_of_week" value="2" checked />
+        Tuesday
+      </label>
+      <label>
+        <input type="checkbox" name="days_of_week" value="3" checked />
+        Wednesday
+      </label>
+      <label>
+        <input type="checkbox" name="days_of_week" value="4" checked />
+        Thursday
+      </label>
+      <label>
+        <input type="checkbox" name="days_of_week" value="5" checked />
+        Friday
+      </label>
+      <label>
+        <input type="checkbox" name="days_of_week" value="6" checked />
+        Saturday
+      </label>
+      <label>
+        <input type="checkbox" name="days_of_week" value="7" checked />
+        Sunday
+      </label>
+    </div>
+  </fieldset>
+
+  <div class="grid">
+    <div>
+      <label for="minRoomSize">Minimum Room Size (m²)</label>
+      <input type="number" id="minRoomSize" name="min_room_size" value="50" />
+    </div>
+    <div>
+      <label for="minAvailabilityDuration">Minimum Duration (minutes)</label>
+      <input
+        type="number"
+        id="minAvailabilityDuration"
+        name="min_availability_duration"
+        value="60"
+      />
+    </div>
+  </div>
+
+  <button data-loading-aria-busy type="submit">Search Availabilities</button>
+</form>
+<div id="result"></div>
