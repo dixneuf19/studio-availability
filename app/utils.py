@@ -15,14 +15,6 @@ def get_dates_from_range(from_date: Date, to_date: Date) -> list[Date]:
     ]
 
 
-def get_room_id(booking: Booking) -> int:
-    return booking.room.id
-
-
-def get_room_name(booking: Booking) -> str:
-    return booking.room.name
-
-
 def strip_room_name(room_name: str) -> str:
     m = re.match(r"^(\d+\.\s?)?(.+)$", room_name)
     if m:

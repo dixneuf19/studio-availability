@@ -21,7 +21,6 @@ from .models import Booking, Room, convert_quickstudio_response
 from .utils import (
     combine_datetime_midnight_aware,
     get_dates_from_range,
-    get_room_id,
     strip_room_name,
     get_bookings_per_room,
 )
@@ -146,7 +145,7 @@ def _compute_room_availabilities(
     bookings_per_room = {
         room_id: list(bookings_iter)
         for room_id, bookings_iter in groupby(
-            sorted(bookings, key=get_room_id), key=get_room_id
+            sorted(bookings, key=lambda x: x.room.id), key=lambda x: x.room.id
         )
     }
 
