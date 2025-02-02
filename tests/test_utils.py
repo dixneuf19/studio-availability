@@ -3,7 +3,9 @@ from app.utils import (
     get_dates_from_range,
     strip_room_name,
     combine_datetime_midnight_aware,
+    get_bookings_per_room,
 )
+from app.models import Booking, Room, Band
 
 
 def test_get_dates_from_range():
@@ -65,3 +67,62 @@ def test_combine_datetime_midnight_aware():
     expected_random = Datetime(2023, 1, 1, 19, 19)
     assert combine_datetime_midnight_aware(date, time_midnight) == expected_midnight
     assert combine_datetime_midnight_aware(date, time_random) == expected_random
+
+
+def test_get_bookings_per_room():
+    band = Band(id=1, name="Band 1")
+    room1 = Room(
+        id=1,
+        name="Room 1",
+        description="A large room",
+        size=100,
+        open=Time(9, 0),
+        close=Time(17, 0),
+        studio_name="hf-14",
+    )
+    room2 = Room(
+        id=2,
+        name="Room 2",
+        description="A medium room",
+        size=80,
+        open=Time(9, 0),
+        close=Time(17, 0),
+        studio_name="hf-14",
+    )
+    bookings = [
+        Booking(
+            type=1,
+            date=Date.today(),
+            start=Time(10, 0),
+            end=Time(11, 0),
+            band=band,
+            room=room1,
+        ),
+        Booking(
+            type=1,
+            date=Date.today(),
+            start=Time(12, 0),
+            end=Time(13, 0),
+            band=band,
+            room=room1,
+        ),
+        Booking(
+            type=1,
+            date=Date.today(),
+            start=Time(14, 0),
+            end=Time(15, 0),
+            band=band,
+            room=room2,
+        ),
+    ]
+
+    bookings_per_room = get_bookings_per_room(bookings)
+
+    assert len(bookings_per_room) == 2
+    assert room1 in bookings_per_room
+    assert room2 in bookings_per_room
+    assert len(bookings_per_room[room1]) == 2
+    assert len(bookings_per_room[room2]) == 1
+    assert bookings_per_room[room1][0].start == Time(10, 0)
+    assert bookings_per_room[room1][1].start == Time(12, 0)
+    assert bookings_per_room[room2][0].start == Time(14, 0)

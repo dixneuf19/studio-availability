@@ -15,10 +15,11 @@ def test_health_endpoint():
     assert response.json() == {"message": "OK"}
 
 
-def test_index_endpoint():
-    response = client.get("/")
-    assert response.status_code == 200
-    assert "text/html" in response.headers["content-type"]
+def test_html_endpoint():
+    for path in ["/", "/availabilities_form", "bookings_form"]:
+        response = client.get(path)
+        assert response.status_code == 200
+        assert "text/html" in response.headers["content-type"]
 
 
 def test_get_availabilities_endpoint():
@@ -85,3 +86,16 @@ def test_compute_room_availabilities():
     assert availabilities[0].end == datetime.combine(
         date_today, min(room.close, to_time, bookings[0].start)
     )
+
+
+def test_get_bookings_endpoint():
+    response = client.get(
+        "/bookings",
+        params={
+            "studio_name": "hf-14",
+            "start_date": date.today().isoformat(),
+            "end_date": (date.today() + timedelta(days=1)).isoformat(),
+        },
+    )
+    assert response.status_code == 200
+    assert "text/html" in response.headers["content-type"]

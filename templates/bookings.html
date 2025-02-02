@@ -1,0 +1,58 @@
+<br />
+<div>
+  {% for date, date_bookings in bookings_per_room_per_date.items() %}
+  <section>
+    <h2>{{ date }}</h2>
+    <div class="grid">
+      {% for room, room_bookings in date_bookings.items() %}
+      <article>
+        <header style="text-align: center">{{ strip_room_name(room.name) }}</header>
+        <body>
+          {% for booking in room_bookings %}
+          <div class="card">
+            <div class="card-left">
+              <p><strong>{{ booking.start.strftime('%H:%M') }}</strong></p>
+              <p><strong>{{ booking.end.strftime('%H:%M') }}</strong></p>
+            </div>
+            <div class="card-right">
+              <p>{{ booking.band.name }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </body>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</div>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  .card {
+    display: flex;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  .card-left {
+    flex: 1;
+    max-width: 80px;
+  }
+  .card-right {
+    flex: 2;
+    margin: auto;
+    padding-left: 1rem;
+  }
+  .card p {
+    margin: 0;
+  }
+
+  article header {
+    font-weight: bold;
+  }
+</style>

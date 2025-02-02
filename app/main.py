@@ -21,8 +21,8 @@ from .models import Booking, Room, convert_quickstudio_response
 from .utils import (
     combine_datetime_midnight_aware,
     get_dates_from_range,
-    get_room_id,
     strip_room_name,
+    get_bookings_per_room,
 )
 
 AUTO_CACHE_SPAN_DAYS = int(os.getenv("AUTO_CACHE_SPAN_DAYS", 15))
@@ -68,13 +68,19 @@ async def get_health() -> dict[str, str]:
 
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
+
 templates = Jinja2Templates(directory="templates")
 
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
+    return templates.TemplateResponse(request=request, name="index.html")
+
+
+@app.get("/availabilities_form", response_class=HTMLResponse)
+async def get_availabilities_form(request: Request):
     return templates.TemplateResponse(
-        request=request, name="index.html", context={"Datetime": Datetime}
+        request=request, name="availabilities_form.html", context={"Datetime": Datetime}
     )
 
 
@@ -139,7 +145,7 @@ def _compute_room_availabilities(
     bookings_per_room = {
         room_id: list(bookings_iter)
         for room_id, bookings_iter in groupby(
-            sorted(bookings, key=get_room_id), key=get_room_id
+            sorted(bookings, key=lambda x: x.room.id), key=lambda x: x.room.id
         )
     }
 
@@ -195,6 +201,43 @@ def _compute_room_availabilities(
 
     # sort per start
     return sorted(filtered_availabilities, key=lambda a: a.start)
+
+
+@app.get("/bookings_form", response_class=HTMLResponse)
+async def get_bookings_form(request: Request):
+    return templates.TemplateResponse(
+        request=request, name="bookings_form.html", context={"Datetime": Datetime}
+    )
+
+
+@app.get("/bookings", response_class=HTMLResponse)
+async def get_bookings(
+    request: Request,
+    studio_name: str,
+    start_date: Date,
+    end_date: Date,
+):
+    dates = get_dates_from_range(start_date, end_date)
+
+    quickstudio_bookings_per_date = await get_batch_quickstudio_bookings(dates)
+
+    bookings_per_room_per_date = {}
+
+    for date, quickstudio_bookings in quickstudio_bookings_per_date.items():
+        _, bookings, rooms = convert_quickstudio_response(
+            studio_name, quickstudio_bookings
+        )
+
+        bookings_per_room_per_date[date] = get_bookings_per_room(bookings)
+
+    return templates.TemplateResponse(
+        request=request,
+        name="bookings.html",
+        context={
+            "bookings_per_room_per_date": bookings_per_room_per_date,
+            "strip_room_name": strip_room_name,
+        },
+    )
 
 
 # debug
