@@ -214,12 +214,9 @@ async def get_bookings_form(request: Request):
 async def get_bookings(
     request: Request,
     studio_name: str,
-    start_date: Date,
-    end_date: Date,
+    date: Date,
 ):
-    dates = get_dates_from_range(start_date, end_date)
-
-    quickstudio_bookings_per_date = await get_batch_quickstudio_bookings(dates)
+    quickstudio_bookings_per_date = await get_batch_quickstudio_bookings([date])
 
     bookings_per_room_per_date = {}
 
