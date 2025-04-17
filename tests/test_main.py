@@ -93,8 +93,7 @@ def test_get_bookings_endpoint():
         "/bookings",
         params={
             "studio_name": "hf-14",
-            "start_date": date.today().isoformat(),
-            "end_date": (date.today() + timedelta(days=1)).isoformat(),
+            "date": date.today().isoformat(),
         },
     )
     assert response.status_code == 200
